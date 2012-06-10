@@ -31,6 +31,7 @@ div#nav a {
     color: #c837ab;
     margin: 0 16px 0 16px;
     text-shadow: 0 0 2px #aa0088;
+    font-weight: 300;
 }
 
 div#nav a:link, div#nav a:active, div#nav a:visited, div#nav a:hover {
@@ -44,6 +45,17 @@ div#nav a:hover {
 
 div#content {
     margin-top: 192px;
+}
+
+div#content a {
+    color: #aa0088;
+    text-decoration: none;
+    border-bottom: 1px dotted #aa0088;
+}
+
+div#content a:hover {
+    color: red;
+    border-bottom: 1px dotted red;
 }
 
 h1 {
@@ -69,5 +81,16 @@ p {
     text-align: left;
     font-weght: 700;
     margin: 6px 0 12px 0;
+}
+
+span.oops {
+    text-decoration: line-through;
+    color: #555555;
+}
+
+span.ctrlh {
+    font-size: 7px;
+    color: #555555;
+    font-family: Consolas, "Courier New", Courier, monospace;
 }
 
