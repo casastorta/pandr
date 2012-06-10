@@ -1,3 +1,7 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
 html {
     margin: 0;
     padding: 0;
@@ -11,19 +15,59 @@ body {
     margin: 0 auto 0 auto;
     background: transparent url(../images/pandr-logo.png)
         0 12px no-repeat;
-    width: 1530px;
-}
-
-id#nav {
     width: 960px;
-    margin: 24px 0 auto auto;
 }
 
-id#nav a {
-    font-family: 'Quicksand', sans-serif;
+div#nav {
+    margin: 64px 0 0 0;
+    width: 640px;
+    float: right;
+    clear: both;
+    text-align: right;
+}
+
+div#nav a {
     font-size: 16px;
+    color: #c837ab;
+    margin: 0 16px 0 16px;
+    text-shadow: 0 0 2px #aa0088;
 }
 
-id#nav a:link, id#nav a:active, id#nav a:visited, id#nav a:hover {
-    color: #c837abff;
+div#nav a:link, div#nav a:active, div#nav a:visited, div#nav a:hover {
+    text-decoration: none;
 }
+
+div#nav a:hover {
+    color: red;
+    text-shadow: 0 0 2px #644;
+}
+
+div#content {
+    margin-top: 192px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: left;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px #aaa;
+    color: red;
+    margin: 18px 0 6px 0;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px #aaa;
+    color: #c837ab;
+    margin: 14px 0 4px 0;
+}
+
+p {
+    font-size: 14px;
+    text-align: left;
+    font-weght: 700;
+    margin: 6px 0 12px 0;
+}
+
