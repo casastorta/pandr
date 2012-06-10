@@ -1,0 +1,16 @@
+html {
+    margin: 0;
+    padding: 0;
+    background: white url(../images/background-gradient.png)
+        top left repeat-x fixed;
+    width: 100%;
+}
+
+body {
+    padding: 160px 0 0 0;
+    margin: 0 auto 0 auto;
+    background: transparent url(../images/pandr-logo.png)
+        0 12px no-repeat;
+    width: 1530px;
+}
+
