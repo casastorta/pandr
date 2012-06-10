@@ -1,0 +1,4 @@
+*.pyc
+.tags*
+*.sublime-project
+*.sublime-workspace
