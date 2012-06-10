@@ -7,10 +7,23 @@ html {
 }
 
 body {
-    padding: 160px 0 0 0;
+    padding: 12px 0 0 0;
     margin: 0 auto 0 auto;
     background: transparent url(../images/pandr-logo.png)
         0 12px no-repeat;
     width: 1530px;
 }
 
+id#nav {
+    width: 960px;
+    margin: 24px 0 auto auto;
+}
+
+id#nav a {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+id#nav a:link, id#nav a:active, id#nav a:visited, id#nav a:hover {
+    color: #c837abff;
+}
