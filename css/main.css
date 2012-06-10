@@ -45,7 +45,7 @@ div#nav a:hover {
 
 div#content {
     margin-top: 16px;
-    width: 570px;
+    width: 600px;
     float: left;
     clear: none;
 }
@@ -86,6 +86,10 @@ p {
     margin: 6px 0 12px 0;
 }
 
+div#content p {
+    text-align: justify;
+}
+
 span.oops {
     text-decoration: line-through;
     color: #555555;
@@ -97,7 +101,7 @@ span.ctrlh {
     font-family: Consolas, "Courier New", Courier, monospace;
 }
 
-div#procon {
+div.procon {
     margin-top: 16px;
     width: 300px;
     background-color: #c837ab;
@@ -109,7 +113,7 @@ div#procon {
     border-radius: 8px;
 }
 
-div#procon h2 {
+div.procon h2 {
     color: white;
     font-size: 16px;
     text-align: center;
@@ -144,8 +148,24 @@ div#cons {
     padding: 4px 8px 4px 8px;
 }
 
-div#pros p {
+div#cons p {
     color: #220000;
+    font-size: 13px;
+    margin: 4px 0 4px 0;
+}
+
+div.helpframe {
+    background-color: #eeeeff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    margin: 6px;
+    padding: 4px 8px 4px 8px;
+}
+
+div.helpframe p {
+    color: #000022;
     font-size: 13px;
     margin: 4px 0 4px 0;
 }
