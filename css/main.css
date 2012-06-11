@@ -102,7 +102,7 @@ span.ctrlh {
 }
 
 div.procon {
-    margin-top: 16px;
+    margin-top: 32px;
     width: 300px;
     background-color: #c837ab;
     float: right;
@@ -168,4 +168,21 @@ div.helpframe p {
     color: #000022;
     font-size: 13px;
     margin: 4px 0 4px 0;
+}
+
+img.sponsorlogo {
+    float: left;
+    margin: 0 12px 8px 0;
+    clear: none;
+}
+
+ul {
+    margin-top: 4px;
+    padding-top: 0;
+}
+
+ul li {
+    font-size: 14px;
+    text-align: left;
+    font-weght: 700;
 }
